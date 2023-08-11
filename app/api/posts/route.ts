@@ -1,6 +1,8 @@
-import { NextApiRequest } from "next";
-
-export const POST = (request: NextApiRequest) => {
-  const { url } = request.body;
-  console.log(url);
+export const POST = async (request: any) => {
+  try {
+    const { url } = await request.json();
+    console.log(url);
+  } catch (error) {
+    console.error("Error:", error);
+  }
 };
