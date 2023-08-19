@@ -32,7 +32,7 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} overflow-x-hidden`}>
         <div className="w-[100vw] min-h-[100vh] flex flex-col justify-between bg-gray-100">
           <Navbar />
           {children}
