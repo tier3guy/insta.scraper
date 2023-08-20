@@ -65,9 +65,9 @@ const Index = () => {
 
   return (
     <div className="w-100 flex-grow-1 flex flex-col gap-8 items-center justify-center">
-      <div className="flex flex-col items-center justify-center gap-4">
+      <div className="flex flex-col items-center justify-center gap-4 px-4 md:px-0">
         <h1 className="font-bold text-5xl">insta.scraper</h1>
-        <p className="w-2/3 text-center">
+        <p className="md:w-2/3 text-center">
           An open-sourced web based application to download high quality
           instagram videos, stories and images without any ads.
         </p>

@@ -13,7 +13,7 @@ const PrimaryButton = ({
     <input
       value={value}
       onChange={setValue ? (e) => setValue(e.target.value) : () => {}}
-      className="shadow-outline-bold p-3 border-2 border-gray-800 w-[50%] outline-none"
+      className="shadow-outline-bold p-3 border-2 border-gray-800 w-[320px] md:w-[50%] outline-none"
       placeholder={placeholder ? placeholder : ""}
     />
   );
